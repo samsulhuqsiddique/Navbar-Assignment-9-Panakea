@@ -1,0 +1,280 @@
+/*
+Author:Samsul Huq Siddique;
+Mail Address:siddiquesamsul8@gmail.com;
+Web link:;
+*/
+
+/*
+====index====
+
+1. header
+2. Fuche at
+3.
+4.
+5.
+6.
+7.
+8.
+
+*/
+/*
+Global CSS
+
+*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+
+}
+p{
+
+}
+h6{
+
+}
+.no-padding{
+    padding: 0px;
+}
+.btn-one{
+	
+}
+.img-center{
+	display: block;
+	margin:0 auto;
+}
+/*Theme Css*/
+/*header start*/
+
+header{
+
+}
+.nav-head{
+	background-color: #edeff1 !important;
+	padding: 25px;
+}
+.nav-link.js-scroll-trigger.active{
+    background-color: #dd4b2b;
+    padding: 6px 12px;
+    border-radius: 30px;
+    color: #fff !important;
+}
+.nav-link{
+	color: #31353e !important;
+}
+.hero{
+	background: url(../image/banner.png) no-repeat center top;
+	background-size: cover;
+	padding:50px 0px;
+}
+.hero h2{
+    color: white;
+    font-size: 55px;
+
+}
+.hero h6{
+	font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+.hero-title {
+    padding-top: 400px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.food-item{
+	text-align: center;
+	color: white;
+}
+.hero h3 {
+    font-size: 30px;
+    margin: 14px 0px;
+}
+.hero p{
+     font-size: 14px;
+    line-height: 25px;
+}
+.btn-cstm {
+    background: white;
+    padding: 6px 22px;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+.food-items {
+    text-align: center;
+    color: black;
+    padding: 0px 10px;
+ }
+
+.food-items img{
+ max-width: 100%;
+}
+
+.food-items h2 {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.food-items p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.our h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.btn-one{
+	background: white;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.faci{
+	background-color: #edeff1;
+}
+.antehead{
+background: url(../image/sg.png) no-repeat center top;
+	background-size: cover;
+	text-align: center;
+}
+
+.antehead h2{
+	font-size: 25px;
+    color: white;
+}
+
+.antehead p{
+     color: white;
+    font-size: 13px;
+}
+.parent{
+	position: relative;
+
+}
+.child{
+	position: absolute;
+    top: 1px;
+    left: 617px;
+
+}
+.emil{
+    padding: 3px 30px;
+    border-radius: 30px;
+    background: #0000002b;
+    border: 1px solid white;
+    }
+.submt{
+	padding: 3px 30px;
+    border-radius: 30px;
+    background: white;
+    border:none;
+    color: darkred;
+}
+::placeholder{
+	color:white;
+}
+.blan-one-content h2 {
+	margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.blan-one-content p {
+    font-size: 15px;
+}
+
+.blan-one-pic img{
+ margin: 10px 0px 0px 10px;
+    max-width: 90%;
+}
+.btn-blan-one {
+    background: #dd4b2b;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.blan-two-content h2{
+     margin-top: 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.blan-two-content p{
+      font-size: 15px;
+}
+.blan-two-pic img {
+    margin: 50px 0px 0px 40px;
+    max-width: 90%;
+}
+.btn-blan-two{
+    background: #4b4e73;
+    border: none;
+    padding: 6px 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.place{
+	background-color: #d75d0e;
+	padding :30px 0px;
+}
+.place p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+}
+.footer{
+   background-image: url(../image/sg.png);
+    background-size: cover;
+    padding: 50px 0px 90px 0px;
+    color: #fff;
+    text-align: center;
+   }
+
+.ft p{
+
+}
+
+/*for mobile device*/
+@media(min-width: 0px) and (max-width: 500px){
+
+	.child {
+    position: absolute;
+    top: 1px;
+    left: 170px;
+}
+.img-center{
+	display: block;
+	margin:0 auto;
+}
+.hero h2 {
+    color: white;
+    font-size: 25px;
+}
+.hero h6 {
+    font-size: 17px;
+    color:white;
+}
+.hero-title {
+    padding-top: 114px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.flex-column-new {
+	flex-direction: column!important;
+	}
+
+ul li a{
+	font-size: 13px;
+}
+
+
+
+}
